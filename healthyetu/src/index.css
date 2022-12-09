@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+  .table tr:nth-child(odd) {background-color: gray;}
+  .table tr:nth-child(even) {background-color: lightgray;}
+
+
+
+table, th, td {
+  border: 0.4px solid black;
+  color: black;
+}
+
+table {
+  width: 40%;
+}
+th {
+  height: 40px;
+}
+.table{
+  margin-top: 2%;
+}
+
+.hed {
+  background-color: rgb(100, 100, 241);
+  color: white;
+}
+
+*{
+  /* background: rgb(2,0,36); */
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(15, 211, 211) 0%); */
+box-sizing: border-box;
+}
+
+::placeholder{
+  color: black;
+}
+
+.txt{
+  
+  font-size: large;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+.textbox {
+position: absolute;
+border: 0.4px solid grey;
+width: 30%;
+top: 28%;
+left: 1%;
+}
+
+.welcome {
+  background-color: rgb(100, 100, 241);
+  color: white;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+.navs{
+  background-color: rgb(2, 2, 41);
+  
+}
+
+.image{
+   /* background-image: url("https://images.pexels.com/photos/9574386/pexels-photo-9574386.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+   /* background-color: red; */
+   position: absolute;
+   left: 40%;
+   top: 28%;
+   width: 55%;
+   height: 60%;
+}
+
+.services{
+  position: absolute;
+  left: 50%;
+  top: 28%;
+  color: white;
+}
+
+.tab{
+  position: absolute;
+  left: 55%;
+  top: 84%;
+  background-color: rgb(100, 100, 241);
+  width: 12%;
+  height: 32px;
+}
+
+.tx{
+  text-decoration: none;
+  color: white;
+}
+
+#auth{
+  position: absolute;
+  left: 40%;
+  
+}
+
+#lgout1{
+  position: absolute;
+  right: 0%;
+  top: 14%;
+  height: 100%;
+  width: 7%;
+  background-color: rgb(2, 2, 41);
+ 
+ 
+}
+.lout{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 30%;
+}
+#bt{
+  background-color: rgb(2, 2, 41);
+}
+
